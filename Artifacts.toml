@@ -1,83 +1,103 @@
 [[obstack]]
 arch = "aarch64"
-git-tree-sha1 = "35ce6ffc2ecb312a67a4c521209f5b2d2f1d3f68"
+git-tree-sha1 = "ae16670000df3848b679c68efd809df4194b4d50"
 libc = "glibc"
 os = "linux"
 
     [[obstack.download]]
-    sha256 = "3cf0bfd64426b1a88f885ed798af7a0eb0c298c1d5ba27cade94d5a67f268927"
-    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.2+0/obstack.v1.2.2.aarch64-linux-gnu.tar.gz"
+    sha256 = "623e53d718864488882f24b6c154224cec2fae88937386b17ac371e829a75149"
+    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.3+0/obstack.v1.2.3.aarch64-linux-gnu.tar.gz"
 [[obstack]]
 arch = "aarch64"
-git-tree-sha1 = "12cf72ce87396c140ba14d7dd42097dac88f3785"
+git-tree-sha1 = "d26e515167eb3ae6857a4068579e14cc36d2c929"
 libc = "musl"
 os = "linux"
 
     [[obstack.download]]
-    sha256 = "6db49c3b33586d12ecb6c564cec1af8c137423a606e4b61c9a6cf8e591822b6f"
-    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.2+0/obstack.v1.2.2.aarch64-linux-musl.tar.gz"
+    sha256 = "a5e4d26f36504aacf8de469dd82f99b8c2a33f32a0c50a7730f83038e103b5af"
+    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.3+0/obstack.v1.2.3.aarch64-linux-musl.tar.gz"
 [[obstack]]
-arch = "armv7l"
+arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "410ad6caab392cc11fb1135bff2ade4a8fa4ac9d"
+git-tree-sha1 = "e3a54878f81e88822347941150d229c462459d13"
 libc = "glibc"
 os = "linux"
 
     [[obstack.download]]
-    sha256 = "8059c7d3116c29a63e7174c9caa063e23632eac69a98a6be0c1150e4a720fe26"
-    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.2+0/obstack.v1.2.2.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "b4ffe6b5050283944f417472ba0bb9035c072fe7b61a13ea57e1457947ec61c8"
+    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.3+0/obstack.v1.2.3.armv6l-linux-gnueabihf.tar.gz"
 [[obstack]]
-arch = "armv7l"
+arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "2df12406950925966de22bfe21fcdc98b2045f57"
+git-tree-sha1 = "4fc42070a301971415df5f8ad77c41039cf7b4d3"
 libc = "musl"
 os = "linux"
 
     [[obstack.download]]
-    sha256 = "41afd0377c0de992edecc2f1c887bb79e6a0d8e656c3c1457203b3fa1192c0b0"
-    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.2+0/obstack.v1.2.2.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "ccc16f07a7c5a172b1a04a305c060d5c3685b582674c867f5341715cb78bd727"
+    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.3+0/obstack.v1.2.3.armv6l-linux-musleabihf.tar.gz"
 [[obstack]]
-arch = "i686"
-git-tree-sha1 = "330dbeee6dfbbad793640c6590032e5403e44a43"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "b447a66272f3b6638a04786320053c298f5c6fcb"
 libc = "glibc"
 os = "linux"
 
     [[obstack.download]]
-    sha256 = "ba35e5acc5373e079a0ea3be7266e8aacce0c22cf04d44e5416a60fcaf06988e"
-    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.2+0/obstack.v1.2.2.i686-linux-gnu.tar.gz"
+    sha256 = "71dc6f058a1bb9205282512a08d736453a710dd9478119921d22a50bb6ad6f2a"
+    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.3+0/obstack.v1.2.3.armv7l-linux-gnueabihf.tar.gz"
 [[obstack]]
-arch = "i686"
-git-tree-sha1 = "2fb707d2fe3932d8d028e61831c692ff33c73faf"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "9b2bccfbe6e88d586e8e544cf1da620c80a61777"
 libc = "musl"
 os = "linux"
 
     [[obstack.download]]
-    sha256 = "034530d881f38d431917b08be77242aa138590feca322c0dc74e194cc66e310f"
-    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.2+0/obstack.v1.2.2.i686-linux-musl.tar.gz"
+    sha256 = "f9cb243bc38e3f2702dcfcd9f81657bfe5273b9a3b6858fd2091eedf8ef09288"
+    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.3+0/obstack.v1.2.3.armv7l-linux-musleabihf.tar.gz"
+[[obstack]]
+arch = "i686"
+git-tree-sha1 = "f3e3aa5f93cf9767f58b7bf3e889dbea8d545049"
+libc = "glibc"
+os = "linux"
+
+    [[obstack.download]]
+    sha256 = "34d187fc0e6af2a230a26479b895008adc080d5d77ef2fd1f7bc6c7ac9b2ed28"
+    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.3+0/obstack.v1.2.3.i686-linux-gnu.tar.gz"
+[[obstack]]
+arch = "i686"
+git-tree-sha1 = "5f99f7a774a5bd32c1b635dd68df0c3866db489b"
+libc = "musl"
+os = "linux"
+
+    [[obstack.download]]
+    sha256 = "e770ddd840870b6e2cc760d1890d4909f9d6795a165fe2717e59b495f8f61d9c"
+    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.3+0/obstack.v1.2.3.i686-linux-musl.tar.gz"
 [[obstack]]
 arch = "powerpc64le"
-git-tree-sha1 = "a3301b57e85a123786c383d788e445f9f5dbe359"
+git-tree-sha1 = "c5ddf6ecae6bdeecc9c7ae91d62cc6ca8d0dd54c"
 libc = "glibc"
 os = "linux"
 
     [[obstack.download]]
-    sha256 = "22806f55293fb9ea071d3f8a73253fdd5ad634997be44588ad20877982683909"
-    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.2+0/obstack.v1.2.2.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "f1c800c39103762a896bf382ecee346392743ef9daffff0251639a86e3342fd7"
+    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.3+0/obstack.v1.2.3.powerpc64le-linux-gnu.tar.gz"
 [[obstack]]
 arch = "x86_64"
-git-tree-sha1 = "b52d11cdae0aae7f7a9bba7037d86778aec78192"
+git-tree-sha1 = "7db44c3fdbe64b614a402d91283edf42fceb3d3d"
 libc = "glibc"
 os = "linux"
 
     [[obstack.download]]
-    sha256 = "7a5c668db292223ec45d61dbec7dbf615978df34e7be20b1af22897ee0e288c5"
-    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.2+0/obstack.v1.2.2.x86_64-linux-gnu.tar.gz"
+    sha256 = "eb2af9f6b553bbb68ad6b3a0316ebd65bdbb9aae4c7bd7b7052886418b3af826"
+    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.3+0/obstack.v1.2.3.x86_64-linux-gnu.tar.gz"
 [[obstack]]
 arch = "x86_64"
-git-tree-sha1 = "577a7514a52c67dd314a9f80cc63542805c23bfe"
+git-tree-sha1 = "15d189ec056eb05b91511c2498f951552e0322ad"
 libc = "musl"
 os = "linux"
 
     [[obstack.download]]
-    sha256 = "54bded5a8aaa7e8946cf0673004b230a4c4a580c00c2b23879163f757a55cf3b"
-    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.2+0/obstack.v1.2.2.x86_64-linux-musl.tar.gz"
+    sha256 = "c4e5838a826fc95b36da62e39f1437b822a3e3bd8d0df66f4294f9e0964bd728"
+    url = "https://github.com/JuliaBinaryWrappers/obstack_jll.jl/releases/download/obstack-v1.2.3+0/obstack.v1.2.3.x86_64-linux-musl.tar.gz"
